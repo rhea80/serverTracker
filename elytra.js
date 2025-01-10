@@ -36,10 +36,9 @@ client.once(Events.ClientReady, readyClient => {
                     channel.send(`New players online: ${newPlayers.join(', ')}`);
                 }
 
-                // Update the last known players
                 lastOnlinePlayers = currentPlayers;
             } else {
-                console.log('Minecraft server is offline.');
+                console.log('Server is offline.');
                 lastOnlinePlayers = [];
             }
         } catch (error) {
