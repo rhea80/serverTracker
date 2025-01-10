@@ -4,10 +4,12 @@
   "description": "tracks server uptime for a discord server",
   "main": "elytra.js",
   "scripts": {
+    "start": "node elytra.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ilyree",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "discord.js": "^14.17.3",
     "node-fetch": "^3.3.2",
