@@ -4,7 +4,7 @@
   "description": "tracks server uptime for a discord server",
   "main": "elytra.js",
   "scripts": {
-    "start": "node elytra.js",
+    "start": "node lib/elytra.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ilyree",
