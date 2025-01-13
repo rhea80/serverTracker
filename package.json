@@ -13,6 +13,7 @@
   "dependencies": {
     "discord.js": "^14.17.3",
     "node-fetch": "^3.3.2",
+    "node-minecraft-status": "^1.2.0",
     "node.js": "^0.0.1-security"
   },
   "devDependencies": {
